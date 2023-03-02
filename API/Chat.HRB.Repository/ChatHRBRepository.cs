@@ -18,23 +18,31 @@ namespace Chat.HRB.Repository
 
 		public async Task<string> Chat(string input)
 		{
+			// TODO first, persist the question
+
+			//TODO take app id, search cosmos DB for baseline prompt/intent by app id
+
+
 			string userInput = $"You: {input}\nMax Refund: ";
 			string userPrompt = string.Concat(this._baseLineIntent, userInput);
 			var chatHRBRequest = new ChatGPTCompletionRequest
 			{
 				Model = ChatGPTCompletionModels.Davinci,
 				Prompt = userPrompt,
-				MaxTokens = 120
+				MaxTokens = 2000
 			};
 
 			var result = await _chatHRB.CreateCompletionAsync(chatHRBRequest);
 			var response = result.GetCompletionText();
+			
 			if (response != null)
 			{
 				return response;
 			}
 			return "";
 		}
+
+		//public async Task<string> GetChatHistroy(int taxyear) { }
 	}
 }
 
