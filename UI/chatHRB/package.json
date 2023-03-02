@@ -19,6 +19,8 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "@bds/bds-core": "^1.22.0",
+    "@bds/bds-ng": "^1.22.0",
     "@nebular/eva-icons": "10.0.0",
     "@nebular/theme": "^10.0.0",
     "eva-icons": "^1.1.2",

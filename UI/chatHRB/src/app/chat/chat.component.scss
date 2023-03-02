@@ -1,0 +1,21 @@
+#chat-bubbler {
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+
+#chat-window {
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#name-header {
+    text-align: center;
+}

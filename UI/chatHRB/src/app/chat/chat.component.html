@@ -1,15 +1,20 @@
-<!--
+
 <hrb-button id="chat-bubbler" *ngIf="!chatIsOpen" (click)="toggleChat()" data-micromodal-trigger="chat-box">
     <hrb-icon name="messages"></hrb-icon>
 </hrb-button>
-<hrb-circle-button (click)="toggleChat()" theme="dark-grey-1" size="medium" p-aria-label="X">
-    <hrb-icon name="close"></hrb-icon>
-</hrb-circle-button>
--->
-<ng-container >
+
+<ng-container *ngIf="chatIsOpen" id="chat-window">
     <nb-chat size="small">
         <ng-template nbChatTitle [context]="{ text: 'some text to pass into template' }" let-data>
-        <div>Chat title content from template. Here is the text provided via context: "{{ data.text }}"</div>
+            <div id="header">
+                <div id="name-header">
+                    <hrb-text>Max Refund</hrb-text>
+                </div>
+                
+                <hrb-circle-button (click)="toggleChat()" theme="dark-grey-1" size="medium" p-aria-label="X">
+                    <hrb-icon name="close"></hrb-icon>
+                </hrb-circle-button>
+            </div>
         </ng-template>
     
         <nb-chat-message

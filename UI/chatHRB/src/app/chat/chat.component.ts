@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   templateUrl: './chat.component.html',
-  selector: 'app-chat'
+  selector: 'app-chat',
+  styleUrls: ['./chat.component.scss']
 })
 export class ChatComponent {
   chatIsOpen = false;
