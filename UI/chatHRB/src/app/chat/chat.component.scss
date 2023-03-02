@@ -62,3 +62,16 @@
         background-color: green !important;
     }
 }
+
+.chat-bubble {
+    display: inline-block;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 20px;
+    animation: typing 1s infinite alternate;
+  }
+  
+  @keyframes typing {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+  }

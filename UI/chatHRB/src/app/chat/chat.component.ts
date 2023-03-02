@@ -11,6 +11,7 @@ export class ChatComponent {
   constructor(private chatGPT: ChatGPTService) {}
 
   chatIsOpen = false;
+  waitingOnGPT = false;
   messages: any[] = [
     {
       text: 'Hello, how can I help you today!',
@@ -33,7 +34,17 @@ export class ChatComponent {
         avatar: 'https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif',
       },
     });
+    this.messages.push({
+      text: '...',
+      date: new Date(),
+      reply: false,
+      user: {
+        name: 'Max Refund',
+        avatar: 'assets/MaxRefund.png',
+      },
+    });
     this.chatGPT.sendToGPT(event.message).subscribe(data => {
+      this.messages.pop();
       this.messages.push({
         text: data,
         date: new Date(),
@@ -43,7 +54,15 @@ export class ChatComponent {
           avatar: 'assets/MaxRefund.png',
         },
       });
+      this.waitingOnGPT = false;
     });
+  }
+
+  appendBubble()
+  {
+    const messagesDiv = document.querySelector('.messages');
+    const chatBubbleHtml = '<div class="chat-bubble"><p>Typing...</p></div>';
+    messagesDiv?.insertAdjacentHTML('beforeend', chatBubbleHtml);
   }
 
   toggleChat() {
