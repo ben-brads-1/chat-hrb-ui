@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Chat.HRB.Interface;
 using Microsoft.AspNetCore.Mvc;
 
 //ChatGPT nuget
@@ -13,10 +14,10 @@ namespace Chat.HRB.Api.Controllers
 {
     public class ChatHRBController : Controller
     {
-        protected IServiceProvider _serviceProvider;
-        public ChatHRBController(IServiceProvider serviceProvider)
+        protected IChatHRBRepository _chatHRBRepository;
+        public ChatHRBController(IChatHRBRepository chatHRBRepository)
         {
-            _serviceProvider = serviceProvider;
+            _chatHRBRepository = chatHRBRepository;
         }
 
         [HttpPost("chat")]
@@ -24,7 +25,11 @@ namespace Chat.HRB.Api.Controllers
         {
             try
             {
-
+                var response = _chatHRBRepository.Chat(input);
+                if (response != null)
+                {
+                    return Ok(response);
+                }
             }
             catch (Exception e)
             {

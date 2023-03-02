@@ -13,6 +13,7 @@ namespace Chat.HRB.Repository
 		public ChatHRBRepository(IServiceProvider serviceProvider) : base()
 		{
 			_serviceProvider = serviceProvider;
+			_chatHRB = _serviceProvider.GetService(typeof(IChatGPTClient)) as ChatGPTClient;
 		}
 
 		public async Task<string> Chat(string input)
