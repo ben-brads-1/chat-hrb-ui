@@ -21,7 +21,7 @@ namespace Chat.HRB.Api.Controllers
         }
 
         [HttpPost("chat")]
-        public async Task<ActionResult<string>> ChatWithBot(string input)
+        public async Task<ActionResult<string>> ChatWithBot(string input, string appId) //MYB, WC, AM, 
         {
             try
             {

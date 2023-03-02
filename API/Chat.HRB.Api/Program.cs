@@ -1,5 +1,4 @@
-﻿
-using Chat.HRB.Infrastructure.Registration;
+﻿using Chat.HRB.Infrastructure.Registration;
 
 var builder = WebApplication.CreateBuilder(args);
 
