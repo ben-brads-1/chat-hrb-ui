@@ -1,0 +1,12 @@
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/bin/Debug/net7.0/Chat.HRB.Models.deps.json
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/bin/Debug/net7.0/Chat.HRB.Models.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/bin/Debug/net7.0/Chat.HRB.Models.pdb
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net7.0/Chat.HRB.Models.csproj.AssemblyReference.cache
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net7.0/Chat.HRB.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net7.0/Chat.HRB.Models.AssemblyInfoInputs.cache
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net7.0/Chat.HRB.Models.AssemblyInfo.cs
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net7.0/Chat.HRB.Models.csproj.CoreCompileInputs.cache
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net7.0/Chat.HRB.Models.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net7.0/refint/Chat.HRB.Models.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net7.0/Chat.HRB.Models.pdb
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net7.0/ref/Chat.HRB.Models.dll

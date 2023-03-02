@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Registration\" />
+    <None Remove="Whetstone.ChatGPT" />
+    <None Remove="Microsoft.Extensions.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Registration\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Whetstone.ChatGPT" Version="1.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Chat.HRB.Interface\Chat.HRB.Interface.csproj" />
+    <ProjectReference Include="..\Chat.HRB.Repository\Chat.HRB.Repository.csproj" />
+  </ItemGroup>
+</Project>

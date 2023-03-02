@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "FJbX0CKCF2RM2LJyLfUxqFFBIpz2o79f2s7dG4hHKbQ+Z7+adhJ2h/b8PIZVI2cbIDmeaNMOhTm5LdV1iMPVlA==",
+  "success": true,
+  "projectFilePath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/Chat.HRB.Repository.csproj",
+  "expectedPackageFiles": [
+    "/Users/a871818/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/whetstone.chatgpt/1.4.0/whetstone.chatgpt.1.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
