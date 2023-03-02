@@ -1,19 +1,20 @@
-﻿<Properties StartupConfiguration="{3EC0AA55-CEFA-4386-BE00-48D01E1EE51E}|https">
+﻿<Properties StartupConfiguration="{A6638076-50DE-48A3-BBD4-1D06457FE591}|Default">
+  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Models FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Api FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Interface FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Repository FirstBuild="True" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Chat.HRB.Api" expanded="True">
-            <Node name="Chat.HRB.Api" expanded="True" />
-          </Node>
+          <Node name="Chat.HRB.Api" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Interface FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Infrastructure FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
