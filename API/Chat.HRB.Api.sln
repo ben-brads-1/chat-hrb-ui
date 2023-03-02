@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.HRB.Api", "Chat.HRB.Api\Chat.HRB.Api.csproj", "{42D298EB-57A5-4D2E-8692-C208F35EB10C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D298EB-57A5-4D2E-8692-C208F35EB10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D298EB-57A5-4D2E-8692-C208F35EB10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D298EB-57A5-4D2E-8692-C208F35EB10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D298EB-57A5-4D2E-8692-C208F35EB10C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {627533E5-FEEB-4A59-9181-869BD3100E58}
+	EndGlobalSection
+EndGlobal
