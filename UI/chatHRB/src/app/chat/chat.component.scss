@@ -33,3 +33,18 @@
     top: 25px;
     right: 15px;
 }
+
+:host ::ng-deep {
+    .message.not-reply nb-chat-message-text .text {
+        background-color: #11A63D !important;
+        color: white;
+    }
+
+    .message.reply nb-chat-message-text .text {
+        background-color: #e5e5e5;
+    }
+
+    nb-chat-form .send-button {
+        background-color: #11A63D !important;
+    }
+}

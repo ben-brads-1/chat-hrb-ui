@@ -19,6 +19,7 @@
         </ng-template>
     
         <nb-chat-message
+        class="message"
         *ngFor="let msg of messages"
         [type]="msg.type"
         [message]="msg.text"
