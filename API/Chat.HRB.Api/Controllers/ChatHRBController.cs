@@ -25,7 +25,7 @@ namespace Chat.HRB.Api.Controllers
         {
             try
             {
-                var response = _chatHRBRepository.Chat(input);
+                var response = await _chatHRBRepository.Chat(input);
                 if (response != null)
                 {
                     return Ok(response);
