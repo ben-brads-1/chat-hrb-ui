@@ -1,5 +1,18 @@
-<router-outlet></router-outlet>
+<nb-layout>
 
-<hrb-global reset></hrb-global>
+  <nb-layout-header fixed>
+  <!-- Insert header here -->
+  </nb-layout-header>
 
-<app-chat></app-chat>
+  <nb-layout-column>
+    <app-chat></app-chat>
+    
+    <router-outlet></router-outlet>
+    
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+  <!-- Insert footer here -->
+  </nb-layout-footer>
+
+</nb-layout>

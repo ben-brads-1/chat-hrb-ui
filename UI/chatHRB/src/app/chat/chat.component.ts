@@ -1,40 +1,38 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-chat',
   templateUrl: './chat.component.html',
-  styleUrls: ['./chat.component.scss']
+  selector: 'app-chat'
 })
 export class ChatComponent {
   chatIsOpen = false;
   messages: any[] = [
     {
-      text: 'text',
+      text: 'Custom template was provided as a title!',
       date: new Date(),
       reply: false,
       user: {
-        name: 'Kyle',
-        avatar: 'link-to-img',
+        name: 'Bot',
+        avatar: 'https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/robot-face.png',
       },
     },
   ];
 
-  sendMessage(event) {
+  sendMessage(event: any) {
     this.messages.push({
       text: event.message,
       date: new Date(),
       reply: true,
       user: {
-        name: 'Josh',
-        avatar: 'link-to-img',
+        name: 'John Doe',
+        avatar: 'https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif',
       },
     });
   }
+
 
   toggleChat() {
     this.chatIsOpen = !this.chatIsOpen;
     console.log(this.chatIsOpen);
   }
 }
-
-
