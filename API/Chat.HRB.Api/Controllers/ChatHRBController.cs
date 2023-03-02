@@ -28,7 +28,7 @@ namespace Chat.HRB.Api.Controllers
                 var response = await _chatHRBRepository.Chat(input);
                 if (response != null)
                 {
-                    return Ok(response);
+                    return Ok(response.Trim());
                 }
             }
             catch (Exception e)
