@@ -4,12 +4,6 @@
     bottom: 8%;
 }
 
-#chat-window {
-    position: absolute;
-    right: 5%;
-    bottom: 8%;
-}
-
 #header {
     display: flex;
     flex-direction: row;
@@ -18,4 +12,24 @@
 
 #name-header {
     text-align: center;
+    margin: auto;
+}
+
+#chat-box {
+    margin: auto;
+    width: 50%;
+    height: 95%;
+}
+
+.header-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#close-button {
+    position: absolute;
+    top: 25px;
+    right: 15px;
 }

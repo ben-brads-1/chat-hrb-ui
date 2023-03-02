@@ -3,15 +3,16 @@
     <hrb-icon name="messages"></hrb-icon>
 </hrb-button>
 
-<ng-container *ngIf="chatIsOpen" id="chat-window">
-    <nb-chat size="small">
+<ng-container *ngIf="chatIsOpen">
+    <nb-chat id="chat-box" size="small">
         <ng-template nbChatTitle [context]="{ text: 'some text to pass into template' }" let-data>
             <div id="header">
                 <div id="name-header">
+                    <img class="header-img" src="assets/MaxRefund.png">
                     <hrb-text>Max Refund</hrb-text>
                 </div>
                 
-                <hrb-circle-button (click)="toggleChat()" theme="dark-grey-1" size="medium" p-aria-label="X">
+                <hrb-circle-button id="close-button" (click)="toggleChat()" theme="dark-grey-1" size="medium" p-aria-label="X">
                     <hrb-icon name="close"></hrb-icon>
                 </hrb-circle-button>
             </div>
