@@ -10,6 +10,7 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { defineCustomElements, applyPolyfills } from '@bds/bds-core/loader';
 import { BdsNgModule } from '@bds/bds-ng';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { FormsModule } from '@angular/forms';
     NbLayoutModule,
     NbEvaIconsModule,
     NbChatModule,
+    HttpClientModule,
     BdsNgModule, 
     FormsModule
   ],

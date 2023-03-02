@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Chat.HRB.Interface
-build_property.ProjectDir = /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/
+build_property.ProjectDir = /Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/

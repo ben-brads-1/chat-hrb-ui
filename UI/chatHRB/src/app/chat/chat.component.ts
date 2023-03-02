@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ChatGPTService } from '../services/chat-gpt.service';
 
 @Component({
   templateUrl: './chat.component.html',
@@ -6,31 +7,47 @@ import { Component } from '@angular/core';
   styleUrls: ['./chat.component.scss']
 })
 export class ChatComponent {
+
+  constructor(private chatGPT: ChatGPTService) {}
+
   chatIsOpen = false;
   messages: any[] = [
     {
-      text: 'Custom template was provided as a title!',
+      text: 'Hello, how can I help you today!',
       date: new Date(),
       reply: false,
       user: {
-        name: 'Bot',
-        avatar: 'https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/robot-face.png',
+        name: 'Max Refund',
+        avatar: 'assets/MaxRefund.png',
       },
     },
   ];
 
-  sendMessage(event: any) {
+  async sendMessage(event: any) {
     this.messages.push({
       text: event.message,
       date: new Date(),
       reply: true,
       user: {
-        name: 'John Doe',
+        name: 'username',
         avatar: 'https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif',
       },
     });
-  }
+    (await this.chatGPT.sendToGPT(event.message)).subscribe(data => {
+      if(!data) return;
+      this.messages.push({
+        text: data,
+        date: new Date(),
+        reply: false,
+        user: {
+          name: 'Max Refund',
+          avatar: 'assets/MaxRefund.png',
+        },
+      });
+    });
+    
 
+  }
 
   toggleChat() {
     this.chatIsOpen = !this.chatIsOpen;

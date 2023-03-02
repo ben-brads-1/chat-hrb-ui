@@ -10,3 +10,15 @@
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/refint/Chat.HRB.Interface.dll
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/Chat.HRB.Interface.pdb
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/ref/Chat.HRB.Interface.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/bin/Debug/net6.0/Chat.HRB.Interface.deps.json
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/bin/Debug/net6.0/Chat.HRB.Interface.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/bin/Debug/net6.0/Chat.HRB.Interface.pdb
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/Chat.HRB.Interface.csproj.AssemblyReference.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/Chat.HRB.Interface.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/Chat.HRB.Interface.AssemblyInfoInputs.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/Chat.HRB.Interface.AssemblyInfo.cs
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/Chat.HRB.Interface.csproj.CoreCompileInputs.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/Chat.HRB.Interface.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/refint/Chat.HRB.Interface.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/Chat.HRB.Interface.pdb
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/obj/Debug/net6.0/ref/Chat.HRB.Interface.dll
