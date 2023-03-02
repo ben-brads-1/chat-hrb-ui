@@ -10,7 +10,7 @@ export class ChatGPTService {
 
   async sendToGPT(message: string)
   { 
-    let response = await this.httpClient.get('https://localhost:7280/chat?input=' + message);
+    let response = this.httpClient.post('https://localhost:7280/chat?input=' + message, null);
     return response;
   }
 }
