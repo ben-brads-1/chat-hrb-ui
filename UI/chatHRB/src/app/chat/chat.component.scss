@@ -53,4 +53,12 @@
     #chat-box .header {
         border-radius: 25px;
     }
+
+    nb-chat-form .message-row .send-button {
+        border-color: lightgray;
+    }
+
+    nb-chat-form .message-row .send-button:hover {
+        background-color: green !important;
+    }
 }
