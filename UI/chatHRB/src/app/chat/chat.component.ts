@@ -33,7 +33,7 @@ export class ChatComponent {
         avatar: 'https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif',
       },
     });
-    this.chatGPT.sendToGPT(event.message, '1234234', '123124').subscribe(data => {
+    this.chatGPT.sendToGPT(event.message).subscribe(data => {
       this.messages.push({
         text: data,
         date: new Date(),

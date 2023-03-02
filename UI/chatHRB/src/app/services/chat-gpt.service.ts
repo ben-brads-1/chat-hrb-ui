@@ -1,18 +1,25 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-
+import { ActivatedRoute } from '@angular/router';
 @Injectable({
   providedIn: 'root'
 })
 export class ChatGPTService {
 
-  constructor(private httpClient: HttpClient) { }
+  public appId: string = '';
+  public userId: string = '';
 
-  sendToGPT(message: string, userId: string, appId: string): Observable<any>
+  constructor(private httpClient: HttpClient, private route: ActivatedRoute) { 
+    this.route.queryParams.subscribe(params => {
+      this.appId = params['appId'];
+      this.userId = params['userId'];
+    });
+  }
+
+  sendToGPT(message: string): Observable<any>
   { 
-    let url = "https://localhost:7280/chat?input=${message}&userId=${userId}&appId=${appId}"
-    let response = this.httpClient.post('https://localhost:7280/chat?input=' + message, null,  { responseType: 'text' });
+    let response = this.httpClient.post(`https://localhost:7280/chat?appId=${this.appId}&userId=${this.userId}&input=` + message, null,  { responseType: 'text' });
     return response;
   }
 }
