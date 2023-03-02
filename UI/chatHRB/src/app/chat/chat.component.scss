@@ -60,6 +60,12 @@
 
     nb-chat-form .message-row .send-button:hover {
         background-color: green !important;
+        border-color: lightgray;
+    }
+
+    nb-chat-form .message-row .with-button:focus {
+        border-color: #11A63D;
+        border-radius: 15px 0 0 15px;
     }
 }
 
