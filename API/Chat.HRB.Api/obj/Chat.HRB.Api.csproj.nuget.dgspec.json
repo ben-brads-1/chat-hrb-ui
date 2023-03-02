@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/a871818/Dev/hackathon/Ballmers%20Theory/Chat.HRB.Api/Chat.HRB.Api/Chat.HRB.Api.csproj": {}
+    "/Users/a871818/Dev/hackathon/Ballmers%20Theory/API/Chat.HRB.Api/Chat.HRB.Api.csproj": {}
   },
   "projects": {
-    "/Users/a871818/Dev/hackathon/Ballmers%20Theory/Chat.HRB.Api/Chat.HRB.Api/Chat.HRB.Api.csproj": {
+    "/Users/a871818/Dev/hackathon/Ballmers%20Theory/API/Chat.HRB.Api/Chat.HRB.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/a871818/Dev/hackathon/Ballmers%20Theory/Chat.HRB.Api/Chat.HRB.Api/Chat.HRB.Api.csproj",
+        "projectUniqueName": "/Users/a871818/Dev/hackathon/Ballmers%20Theory/API/Chat.HRB.Api/Chat.HRB.Api.csproj",
         "projectName": "Chat.HRB.Api",
-        "projectPath": "/Users/a871818/Dev/hackathon/Ballmers%20Theory/Chat.HRB.Api/Chat.HRB.Api/Chat.HRB.Api.csproj",
+        "projectPath": "/Users/a871818/Dev/hackathon/Ballmers%20Theory/API/Chat.HRB.Api/Chat.HRB.Api.csproj",
         "packagesPath": "/Users/a871818/.nuget/packages/",
-        "outputPath": "/Users/a871818/Dev/hackathon/Ballmers%20Theory/Chat.HRB.Api/Chat.HRB.Api/obj/",
+        "outputPath": "/Users/a871818/Dev/hackathon/Ballmers%20Theory/API/Chat.HRB.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/a871818/.nuget/NuGet/NuGet.Config"
