@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1704.3
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.33402.176
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.HRB.Api", "Chat.HRB.Api\Chat.HRB.Api.csproj", "{A6638076-50DE-48A3-BBD4-1D06457FE591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.HRB.Api", "Chat.HRB.Api\Chat.HRB.Api.csproj", "{A6638076-50DE-48A3-BBD4-1D06457FE591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.HRB.Infrastructure", "Chat.HRB.Infrastructure\Chat.HRB.Infrastructure.csproj", "{9FE31DE3-B656-4519-A78D-77A559202940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.HRB.Infrastructure", "Chat.HRB.Infrastructure\Chat.HRB.Infrastructure.csproj", "{9FE31DE3-B656-4519-A78D-77A559202940}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.HRB.Interface", "Chat.HRB.Interface\Chat.HRB.Interface.csproj", "{E9F20012-AC99-4A94-AEB3-B89751B1285E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.HRB.Interface", "Chat.HRB.Interface\Chat.HRB.Interface.csproj", "{E9F20012-AC99-4A94-AEB3-B89751B1285E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.HRB.Models", "Chat.HRB.Models\Chat.HRB.Models.csproj", "{F7DE991C-7ECF-4FB8-9627-A788EBEBE30C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.HRB.Models", "Chat.HRB.Models\Chat.HRB.Models.csproj", "{F7DE991C-7ECF-4FB8-9627-A788EBEBE30C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.HRB.Repository", "Chat.HRB.Repository\Chat.HRB.Repository.csproj", "{83E39768-DFF1-4DB3-9970-EC51EDB05231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.HRB.Repository", "Chat.HRB.Repository\Chat.HRB.Repository.csproj", "{83E39768-DFF1-4DB3-9970-EC51EDB05231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.HRB.Common", "Chat.HRB.Common\Chat.HRB.Common.csproj", "{5AD518FD-9AEA-4E87-8445-EF06EB8BE209}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{83E39768-DFF1-4DB3-9970-EC51EDB05231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83E39768-DFF1-4DB3-9970-EC51EDB05231}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83E39768-DFF1-4DB3-9970-EC51EDB05231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD518FD-9AEA-4E87-8445-EF06EB8BE209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD518FD-9AEA-4E87-8445-EF06EB8BE209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD518FD-9AEA-4E87-8445-EF06EB8BE209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD518FD-9AEA-4E87-8445-EF06EB8BE209}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

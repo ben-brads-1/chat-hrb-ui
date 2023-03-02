@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "G4sc0Micq34ZDCZCO4+rQn9uX0s3RWdoN8bH/X2Ax+akCOUz2am909PtXfsxPNheEVueYtzHKYV/RpBG7p4BiA==",
+  "dgSpecHash": "mYC0cuGYJQHnNK3jOLYAPQGO9gzGB/TeQYDLO1ID4amukdq1jbVfkgqP79rIQcMFIH71zoe9RTDMyzNRWTy+zw==",
   "success": true,
-  "projectFilePath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/Chat.HRB.Models.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Models\\Chat.HRB.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A1178574\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

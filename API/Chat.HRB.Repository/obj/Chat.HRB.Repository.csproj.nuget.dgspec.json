@@ -1,27 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/Chat.HRB.Repository.csproj": {}
+    "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Repository\\Chat.HRB.Repository.csproj": {}
   },
   "projects": {
-    "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj": {
+    "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Common\\Chat.HRB.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj",
-        "projectName": "Chat.HRB.Interface",
-        "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj",
-        "packagesPath": "/Users/a871818/.nuget/packages/",
-        "outputPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/obj/",
+        "projectUniqueName": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Common\\Chat.HRB.Common.csproj",
+        "projectName": "Chat.HRB.Common",
+        "projectPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Common\\Chat.HRB.Common.csproj",
+        "packagesPath": "C:\\Users\\A1178574\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/a871818/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\A1178574\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/ESP/_packaging/ESP/nuget/v3/index.json": {},
           "https://pkgs.dev.azure.com/hrblock/_packaging/eep-production%40Local/nuget/v3/index.json": {},
           "https://pkgs.dev.azure.com/hrblock/myblock/_packaging/MyBlock/nuget/v3/index.json": {}
         },
@@ -40,14 +45,23 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Azure.DocumentDB.Core": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -56,28 +70,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.114\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/Chat.HRB.Repository.csproj": {
+    "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Interface\\Chat.HRB.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/Chat.HRB.Repository.csproj",
-        "projectName": "Chat.HRB.Repository",
-        "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/Chat.HRB.Repository.csproj",
-        "packagesPath": "/Users/a871818/.nuget/packages/",
-        "outputPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/obj/",
+        "projectUniqueName": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Interface\\Chat.HRB.Interface.csproj",
+        "projectName": "Chat.HRB.Interface",
+        "projectPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Interface\\Chat.HRB.Interface.csproj",
+        "packagesPath": "C:\\Users\\A1178574\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Interface\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/a871818/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\A1178574\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/ESP/_packaging/ESP/nuget/v3/index.json": {},
           "https://pkgs.dev.azure.com/hrblock/_packaging/eep-production%40Local/nuget/v3/index.json": {},
           "https://pkgs.dev.azure.com/hrblock/myblock/_packaging/MyBlock/nuget/v3/index.json": {}
         },
@@ -85,8 +104,144 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj": {
-                "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj"
+              "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Common\\Chat.HRB.Common.csproj": {
+                "projectPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Common\\Chat.HRB.Common.csproj"
+              },
+              "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Models\\Chat.HRB.Models.csproj": {
+                "projectPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Models\\Chat.HRB.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.114\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Models\\Chat.HRB.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Models\\Chat.HRB.Models.csproj",
+        "projectName": "Chat.HRB.Models",
+        "projectPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Models\\Chat.HRB.Models.csproj",
+        "packagesPath": "C:\\Users\\A1178574\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\A1178574\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/ESP/_packaging/ESP/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/_packaging/eep-production%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/myblock/_packaging/MyBlock/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.114\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Repository\\Chat.HRB.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Repository\\Chat.HRB.Repository.csproj",
+        "projectName": "Chat.HRB.Repository",
+        "projectPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Repository\\Chat.HRB.Repository.csproj",
+        "packagesPath": "C:\\Users\\A1178574\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\A1178574\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/ESP/_packaging/ESP/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/_packaging/eep-production%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/myblock/_packaging/MyBlock/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Common\\Chat.HRB.Common.csproj": {
+                "projectPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Common\\Chat.HRB.Common.csproj"
+              },
+              "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Interface\\Chat.HRB.Interface.csproj": {
+                "projectPath": "C:\\Repositories\\Ballmers_Theory\\API\\Chat.HRB.Interface\\Chat.HRB.Interface.csproj"
               }
             }
           }
@@ -112,8 +267,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -122,7 +276,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.114\\RuntimeIdentifierGraph.json"
         }
       }
     }

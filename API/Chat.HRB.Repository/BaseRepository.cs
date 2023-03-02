@@ -1,16 +1,42 @@
-﻿using System;
-using System.Text;
+﻿#region Using Directives
+
+using Chat.HRB.Interface;
+using Microsoft.Extensions.DependencyInjection;
+using System.Text; 
+
+#endregion
 
 namespace Chat.HRB.Repository
 {
     public class BaseRepository
     {
-        protected string _baseLineIntent;
-        public BaseRepository()
+        #region Fields
+
+        private readonly IServiceProvider _serviceProvider;
+
+        #endregion
+
+        #region Constructor
+        
+        public BaseRepository(IServiceProvider serviceProvider)
         {
-            _baseLineIntent = BuildIntent();
+            BaseLineIntent = BuildIntent();
+            _serviceProvider = serviceProvider;
+
+            DocumentDbRepositoryFactory = _serviceProvider.GetService<IDocumentDbRepositoryFactory>();
         }
 
+        #endregion
+
+        #region Properties
+
+        protected IDocumentDbRepositoryFactory DocumentDbRepositoryFactory { get; }
+        protected string BaseLineIntent { get; }
+
+        #endregion
+
+        #region Methods
+       
         private string BuildIntent()
         {
             //MYB Prompt
@@ -30,7 +56,9 @@ namespace Chat.HRB.Repository
             //WC Prompt
 
             //AM Prompt
-        }
+        } 
+        
+        #endregion
     }
 }
 
