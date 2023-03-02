@@ -19,6 +19,8 @@
     margin: auto;
     width: 50%;
     height: 90vh;
+    border-radius: 25px;
+    box-shadow: 0 0 15px #999;
 }
 
 .header-img {
@@ -46,5 +48,9 @@
 
     nb-chat-form .send-button {
         background-color: #11A63D !important;
+    }
+
+    #chat-box .header {
+        border-radius: 25px;
     }
 }
