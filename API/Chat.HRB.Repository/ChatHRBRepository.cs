@@ -16,7 +16,7 @@ namespace Chat.HRB.Repository
             _chatHRB = _serviceProvider.GetService(typeof(IChatGPTClient)) as ChatGPTClient;
         }
 
-        public async Task<string> Chat(string input)
+        public async Task<string> Chat(string input, string appId, string userId)
         {
             // TODO first, persist the question
 

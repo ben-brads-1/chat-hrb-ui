@@ -477,35 +477,38 @@
     ]
   },
   "packageFolders": {
-    "/Users/ben.bradshaw/.nuget/packages/": {}
+    "/Users/a871818/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/Chat.HRB.Infrastructure.csproj",
+      "projectUniqueName": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/Chat.HRB.Infrastructure.csproj",
       "projectName": "Chat.HRB.Infrastructure",
-      "projectPath": "/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/Chat.HRB.Infrastructure.csproj",
-      "packagesPath": "/Users/ben.bradshaw/.nuget/packages/",
-      "outputPath": "/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/",
+      "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/Chat.HRB.Infrastructure.csproj",
+      "packagesPath": "/Users/a871818/.nuget/packages/",
+      "outputPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ben.bradshaw/.nuget/NuGet/NuGet.Config"
+        "/Users/a871818/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/hrblock/_packaging/eep-production%40Local/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/hrblock/myblock/_packaging/MyBlock/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj": {
-              "projectPath": "/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj"
+            "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj": {
+              "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj"
             },
-            "/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/Chat.HRB.Repository.csproj": {
-              "projectPath": "/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/Chat.HRB.Repository.csproj"
+            "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/Chat.HRB.Repository.csproj": {
+              "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/Chat.HRB.Repository.csproj"
             }
           }
         }
@@ -545,7 +548,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -21,11 +21,11 @@ namespace Chat.HRB.Api.Controllers
         }
 
         [HttpPost("chat")]
-        public async Task<ActionResult<string>> ChatWithBot(string input, string appId) //MYB, WC, AM, 
+        public async Task<ActionResult<string>> ChatWithBot(string input, string appId, string userId) //MYB, WC, AM, 
         {
             try
             {
-                var response = await _chatHRBRepository.Chat(input);
+                var response = await _chatHRBRepository.Chat(input, appId, userId);
                 if (response != null)
                 {
                     return Ok(response.Trim());

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "xdv2Zt6elNTYXwGHj101xHGSbP8j+w2ghgmKR3k9r/zEbpXVY4jzXvpjfWawWqTwkwiC3h8MYc2KVg9ZERi4xQ==",
+  "dgSpecHash": "nRZFdmfwGq9unWCyjsR0zlE8XNwQHxhEMeIeTft/itFMXXCA8Hgtsja0wdRSXyWymUHpL2ABpwgkoSvyNNll+Q==",
   "success": true,
-  "projectFilePath": "/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/Chat.HRB.Repository.csproj",
+  "projectFilePath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/Chat.HRB.Repository.csproj",
   "expectedPackageFiles": [
-    "/Users/ben.bradshaw/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "/Users/ben.bradshaw/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "/Users/ben.bradshaw/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "/Users/ben.bradshaw/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/Users/ben.bradshaw/.nuget/packages/whetstone.chatgpt/1.4.0/whetstone.chatgpt.1.4.0.nupkg.sha512"
+    "/Users/a871818/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/whetstone.chatgpt/1.4.0/whetstone.chatgpt.1.4.0.nupkg.sha512"
   ],
   "logs": []
 }

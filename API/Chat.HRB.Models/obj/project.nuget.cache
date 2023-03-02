@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8keAv+bD41qt1fdoo9J8k0DAjLLEwKmYwafB4QiSC8w8w7BLrONzBzwBnDhcXCcN+XQi2kMbMPoIUYdjuNRFew==",
+  "dgSpecHash": "G4sc0Micq34ZDCZCO4+rQn9uX0s3RWdoN8bH/X2Ax+akCOUz2am909PtXfsxPNheEVueYtzHKYV/RpBG7p4BiA==",
   "success": true,
-  "projectFilePath": "/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/Chat.HRB.Models.csproj",
+  "projectFilePath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/Chat.HRB.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

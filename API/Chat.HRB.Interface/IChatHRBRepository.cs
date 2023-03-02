@@ -3,7 +3,7 @@ namespace Chat.HRB.Interface
 {
     public interface IChatHRBRepository
     {
-        Task<string> Chat(string input);
+        Task<string> Chat(string input, string appId, string userId);
     }
 }
 
