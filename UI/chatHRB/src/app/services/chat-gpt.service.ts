@@ -9,8 +9,9 @@ export class ChatGPTService {
 
   constructor(private httpClient: HttpClient) { }
 
-  sendToGPT(message: string): Observable<any>
+  sendToGPT(message: string, userId: string, appId: string): Observable<any>
   { 
+    let url = "https://localhost:7280/chat?input=${message}&userId=${userId}&appId=${appId}"
     let response = this.httpClient.post('https://localhost:7280/chat?input=' + message, null,  { responseType: 'text' });
     return response;
   }
