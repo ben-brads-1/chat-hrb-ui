@@ -30,7 +30,7 @@ export class ChatComponent {
       date: new Date(),
       reply: true,
       user: {
-        name: 'username',
+        name: 'You',
         avatar: 'https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif',
       },
     });
