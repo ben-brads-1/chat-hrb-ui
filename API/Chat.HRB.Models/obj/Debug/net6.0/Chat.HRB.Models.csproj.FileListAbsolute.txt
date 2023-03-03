@@ -10,6 +10,7 @@
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/refint/Chat.HRB.Models.dll
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/Chat.HRB.Models.pdb
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/ref/Chat.HRB.Models.dll
+<<<<<<< HEAD
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Models\bin\Debug\net6.0\Chat.HRB.Models.deps.json
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Models\bin\Debug\net6.0\Chat.HRB.Models.dll
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Models\bin\Debug\net6.0\ref\Chat.HRB.Models.dll
@@ -21,3 +22,17 @@ C:\Repositories\Ballmers_Theory\API\Chat.HRB.Models\obj\Debug\net6.0\Chat.HRB.Mo
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Models\obj\Debug\net6.0\Chat.HRB.Models.dll
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Models\obj\Debug\net6.0\ref\Chat.HRB.Models.dll
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Models\obj\Debug\net6.0\Chat.HRB.Models.pdb
+=======
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/bin/Debug/net6.0/Chat.HRB.Models.deps.json
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/bin/Debug/net6.0/Chat.HRB.Models.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/bin/Debug/net6.0/Chat.HRB.Models.pdb
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/Chat.HRB.Models.csproj.AssemblyReference.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/Chat.HRB.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/Chat.HRB.Models.AssemblyInfoInputs.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/Chat.HRB.Models.AssemblyInfo.cs
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/Chat.HRB.Models.csproj.CoreCompileInputs.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/Chat.HRB.Models.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/refint/Chat.HRB.Models.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/Chat.HRB.Models.pdb
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Models/obj/Debug/net6.0/ref/Chat.HRB.Models.dll
+>>>>>>> e0c90e1c98044d896c6b7b47ad09121ad32834f8

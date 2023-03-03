@@ -1,23 +1,41 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
-import { defineCustomElements, applyPolyfills } from '@bds/bds-core/loader';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { NbThemeModule, NbLayoutModule, NbChatModule } from '@nebular/theme';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { ChatComponent } from './chat/chat.component';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { defineCustomElements, applyPolyfills } from '@bds/bds-core/loader';
 import { BdsNgModule } from '@bds/bds-ng';
 import { FormsModule } from '@angular/forms';
-import { ChatComponent } from './chat/chat.component';
-import { NbChatModule, NbThemeModule } from '@nebular/theme';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [AppComponent, ChatComponent],
-  imports: [BrowserModule, AppRoutingModule, BdsNgModule, FormsModule, NbThemeModule.forRoot(), NbChatModule],
+  declarations: [
+    AppComponent,
+    ChatComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NoopAnimationsModule,
+    NbThemeModule.forRoot({ name: 'default' }),
+    NbLayoutModule,
+    NbEvaIconsModule,
+    NbChatModule,
+    HttpClientModule,
+    BdsNgModule, 
+    FormsModule
+  ],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class AppModule {
+export class AppModule { 
   constructor() {
-      applyPolyfills().then(() => {
+    applyPolyfills().then(() => {
       defineCustomElements(window);
     });
   }

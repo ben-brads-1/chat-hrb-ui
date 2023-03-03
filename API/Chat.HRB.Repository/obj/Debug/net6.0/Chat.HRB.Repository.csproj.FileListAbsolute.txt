@@ -13,6 +13,7 @@
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/refint/Chat.HRB.Repository.dll
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/Chat.HRB.Repository.pdb
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/ref/Chat.HRB.Repository.dll
+<<<<<<< HEAD
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Repository\bin\Debug\net6.0\Chat.HRB.Repository.deps.json
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Repository\bin\Debug\net6.0\Chat.HRB.Repository.dll
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Repository\bin\Debug\net6.0\ref\Chat.HRB.Repository.dll
@@ -34,3 +35,20 @@ C:\Repositories\Ballmers_Theory\API\Chat.HRB.Repository\bin\Debug\net6.0\Chat.HR
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Repository\bin\Debug\net6.0\Chat.HRB.Models.dll
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Repository\bin\Debug\net6.0\Chat.HRB.Common.pdb
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Repository\bin\Debug\net6.0\Chat.HRB.Models.pdb
+=======
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/bin/Debug/net6.0/Chat.HRB.Repository.deps.json
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/bin/Debug/net6.0/Chat.HRB.Repository.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/bin/Debug/net6.0/Chat.HRB.Repository.pdb
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/bin/Debug/net6.0/Chat.HRB.Interface.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/bin/Debug/net6.0/Chat.HRB.Interface.pdb
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/Chat.HRB.Repository.csproj.AssemblyReference.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/Chat.HRB.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/Chat.HRB.Repository.AssemblyInfoInputs.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/Chat.HRB.Repository.AssemblyInfo.cs
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/Chat.HRB.Repository.csproj.CoreCompileInputs.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/Chat.HRB.Repository.csproj.CopyComplete
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/Chat.HRB.Repository.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/refint/Chat.HRB.Repository.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/Chat.HRB.Repository.pdb
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Repository/obj/Debug/net6.0/ref/Chat.HRB.Repository.dll
+>>>>>>> e0c90e1c98044d896c6b7b47ad09121ad32834f8

@@ -15,6 +15,7 @@
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/refint/Chat.HRB.Infrastructure.dll
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/Chat.HRB.Infrastructure.pdb
 /Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/ref/Chat.HRB.Infrastructure.dll
+<<<<<<< HEAD
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Infrastructure\bin\Debug\net6.0\Chat.HRB.Infrastructure.deps.json
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Infrastructure\bin\Debug\net6.0\Chat.HRB.Infrastructure.dll
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Infrastructure\bin\Debug\net6.0\ref\Chat.HRB.Infrastructure.dll
@@ -38,3 +39,22 @@ C:\Repositories\Ballmers_Theory\API\Chat.HRB.Infrastructure\bin\Debug\net6.0\Cha
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Infrastructure\bin\Debug\net6.0\Chat.HRB.Models.dll
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Infrastructure\bin\Debug\net6.0\Chat.HRB.Common.pdb
 C:\Repositories\Ballmers_Theory\API\Chat.HRB.Infrastructure\bin\Debug\net6.0\Chat.HRB.Models.pdb
+=======
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Chat.HRB.Infrastructure.deps.json
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Chat.HRB.Infrastructure.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Chat.HRB.Infrastructure.pdb
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Chat.HRB.Interface.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Chat.HRB.Repository.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Chat.HRB.Interface.pdb
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Chat.HRB.Repository.pdb
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/Chat.HRB.Infrastructure.csproj.AssemblyReference.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/Chat.HRB.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/Chat.HRB.Infrastructure.AssemblyInfoInputs.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/Chat.HRB.Infrastructure.AssemblyInfo.cs
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/Chat.HRB.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/Chat.HRB.Infrastructure.csproj.CopyComplete
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/Chat.HRB.Infrastructure.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/refint/Chat.HRB.Infrastructure.dll
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/Chat.HRB.Infrastructure.pdb
+/Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/ref/Chat.HRB.Infrastructure.dll
+>>>>>>> e0c90e1c98044d896c6b7b47ad09121ad32834f8
