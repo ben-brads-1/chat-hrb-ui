@@ -69,15 +69,43 @@
     }
 }
 
-.chat-bubble {
-    display: inline-block;
-    background-color: #eee;
-    padding: 10px;
-    border-radius: 20px;
-    animation: typing 1s infinite alternate;
+/* Define the initial and final states of the chat element */
+:host ::ng-deep nb-chat {
+    position: relative;
+    bottom: -100%;
+    right: -100%;
   }
   
-  @keyframes typing {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+  /* Define the animation */
+  @keyframes chatAnimation {
+    0% {
+      bottom: -100%;
+      right: -100%;
+    }
+    100% {
+      bottom: 0;
+      right: 0;
+    }
+  }
+  
+  /* Define the animation for closing the chat element */
+  @keyframes closeChatAnimation {
+    0% {
+      bottom: 0;
+      right: 0;
+    }
+    100% {
+      bottom: -100%;
+      right: -100%;
+    }
+  }
+  
+  /* Apply the animation to the chat element */
+  .animate-chat {
+    animation: chatAnimation 0.5s ease-in forwards;
+  }
+  
+  /* Apply the animation for closing the chat element */
+  .close-chat {
+    animation: closeChatAnimation 0.5s ease-out forwards;
   }

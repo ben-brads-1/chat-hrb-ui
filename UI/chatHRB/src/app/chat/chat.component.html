@@ -3,8 +3,8 @@
     <hrb-icon name="messages"></hrb-icon>
 </hrb-button>
 
-<ng-container *ngIf="chatIsOpen">
-    <nb-chat id="chat-box" size="small">
+<ng-container>
+    <nb-chat [ngClass] = "{'animate-chat': chatIsOpen, 'close-chat': !chatIsOpen}" id="chat-box" size="small">
         <ng-template nbChatTitle [context]="{ text: 'some text to pass into template' }" let-data>
             <div id="header">
                 <div id="name-header">

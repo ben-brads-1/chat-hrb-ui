@@ -66,7 +66,6 @@ export class ChatComponent {
   }
 
   toggleChat() {
-    this.chatIsOpen = !this.chatIsOpen;
-    console.log(this.chatIsOpen);
+      this.chatIsOpen = !this.chatIsOpen;
   }
 }
