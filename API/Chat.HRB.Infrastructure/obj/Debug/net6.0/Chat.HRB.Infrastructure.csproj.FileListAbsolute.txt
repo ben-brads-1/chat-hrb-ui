@@ -32,3 +32,9 @@
 /Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/refint/Chat.HRB.Infrastructure.dll
 /Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/Chat.HRB.Infrastructure.pdb
 /Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Infrastructure/obj/Debug/net6.0/ref/Chat.HRB.Infrastructure.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Microsoft.Azure.Documents.ServiceInterop.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Cosmos.CRTCompat.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Chat.HRB.Common.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Chat.HRB.Models.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Chat.HRB.Common.pdb
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Infrastructure/bin/Debug/net6.0/Chat.HRB.Models.pdb

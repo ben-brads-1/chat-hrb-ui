@@ -1,12 +1,9 @@
 ﻿<Properties StartupConfiguration="{A6638076-50DE-48A3-BBD4-1D06457FE591}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Common FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Api PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Models FirstBuild="True" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,6 +14,4 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Repository FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Chat.HRB.Interface FirstBuild="True" />
 </Properties>

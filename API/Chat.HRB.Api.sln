@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.HRB.Models", "Chat.HRB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.HRB.Repository", "Chat.HRB.Repository\Chat.HRB.Repository.csproj", "{83E39768-DFF1-4DB3-9970-EC51EDB05231}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.HRB.Common", "Chat.HRB.Common\Chat.HRB.Common.csproj", "{E3F03564-A238-4E55-B88F-A9B6BF0EC56D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{83E39768-DFF1-4DB3-9970-EC51EDB05231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83E39768-DFF1-4DB3-9970-EC51EDB05231}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83E39768-DFF1-4DB3-9970-EC51EDB05231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F03564-A238-4E55-B88F-A9B6BF0EC56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F03564-A238-4E55-B88F-A9B6BF0EC56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F03564-A238-4E55-B88F-A9B6BF0EC56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F03564-A238-4E55-B88F-A9B6BF0EC56D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

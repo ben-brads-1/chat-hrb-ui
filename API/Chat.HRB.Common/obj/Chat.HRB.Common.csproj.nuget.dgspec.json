@@ -1,0 +1,207 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Common/Chat.HRB.Common.csproj": {}
+  },
+  "projects": {
+    "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Common/Chat.HRB.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Common/Chat.HRB.Common.csproj",
+        "projectName": "Chat.HRB.Common",
+        "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Common/Chat.HRB.Common.csproj",
+        "packagesPath": "/Users/a871818/.nuget/packages/",
+        "outputPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/a871818/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/_packaging/eep-production%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/myblock/_packaging/MyBlock/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj": {
+                "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj"
+              },
+              "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/Chat.HRB.Models.csproj": {
+                "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/Chat.HRB.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Azure.DocumentDB.Core": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj",
+        "projectName": "Chat.HRB.Interface",
+        "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj",
+        "packagesPath": "/Users/a871818/.nuget/packages/",
+        "outputPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/a871818/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/_packaging/eep-production%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/myblock/_packaging/MyBlock/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/Chat.HRB.Models.csproj": {
+                "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/Chat.HRB.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/Chat.HRB.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/Chat.HRB.Models.csproj",
+        "projectName": "Chat.HRB.Models",
+        "projectPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/Chat.HRB.Models.csproj",
+        "packagesPath": "/Users/a871818/.nuget/packages/",
+        "outputPath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/a871818/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/_packaging/eep-production%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/myblock/_packaging/MyBlock/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "+P1C6sW2kByvGtdpqsS1K2yy0nBbhJLyUXOG8t14gXKWwKzSJaZZgPdnHAJZ7yhldVNZxwsYHT0Y3Ury4eyy1Q==",
+  "dgSpecHash": "zeAjuMEBBMDTh4ZZH4mUt1RPGmz+LrgtHkcUlygI4wMJ/xA9MwOrMwS2bfx+ufPeH+zJULVfmj2cksHaUZUekQ==",
   "success": true,
   "projectFilePath": "/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Interface/Chat.HRB.Interface.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/a871818/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
+    "/Users/a871818/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

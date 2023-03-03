@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Text;
+using Chat.HRB.Interface;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Chat.HRB.Repository
 {
     public class BaseRepository
     {
         protected string _baseLineIntent;
-        public BaseRepository()
+        protected IDocumentDbRepositoryFactory DocumentDbRepositoryFactory { get; }
+
+        public BaseRepository(IServiceProvider serviceProvider)
         {
             _baseLineIntent = BuildIntent();
+            DocumentDbRepositoryFactory = serviceProvider.GetService<IDocumentDbRepositoryFactory>();
         }
 
         private string BuildIntent()

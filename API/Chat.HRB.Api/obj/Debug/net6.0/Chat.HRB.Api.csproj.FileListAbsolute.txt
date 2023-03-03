@@ -76,3 +76,16 @@
 /Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Api/obj/Debug/net6.0/Chat.HRB.Api.pdb
 /Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Api/obj/Debug/net6.0/Chat.HRB.Api.genruntimeconfig.cache
 /Users/ben.bradshaw/Ballmers_Theory/API/Chat.HRB.Api/obj/Debug/net6.0/ref/Chat.HRB.Api.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/Microsoft.Azure.Documents.ServiceInterop.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/Cosmos.CRTCompat.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/Microsoft.Azure.DocumentDB.Core.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/runtimes/win7-x64/native/Cosmos.CRTCompat.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/runtimes/win7-x64/native/Microsoft.Azure.Documents.ServiceInterop.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/Chat.HRB.Common.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/Chat.HRB.Models.dll
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/Chat.HRB.Common.pdb
+/Users/a871818/Dev/hackathon/Ballmers_Theory/API/Chat.HRB.Api/bin/Debug/net6.0/Chat.HRB.Models.pdb

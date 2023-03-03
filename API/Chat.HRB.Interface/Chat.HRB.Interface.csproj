@@ -6,4 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Chat.HRB.Models\Chat.HRB.Models.csproj" />
+  </ItemGroup>
 </Project>

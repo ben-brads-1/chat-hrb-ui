@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Text;
+using Chat.HRB.Common.CosmosDB;
+using Chat.HRB.Common.Interfaces;
 using Chat.HRB.Interface;
 using Chat.HRB.Repository;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,6 +16,8 @@ namespace Chat.HRB.Infrastructure.Registration
         {
             //register the repository
             services.AddTransient<IChatHRBRepository, ChatHRBRepository>();
+            services.AddTransient<IDocumentDbRepositoryFactory, DocumentDbRepositoryFactory>();
+            services.AddTransient<IDocumentDbRepository, AzureDocumentDbRepository>();
 
             //configure chatGPTCredentials
             services.Configure<ChatGPTCredentials>(options =>
