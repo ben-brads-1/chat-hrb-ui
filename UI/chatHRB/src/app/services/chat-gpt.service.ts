@@ -7,19 +7,20 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ChatGPTService {
 
-  public appId: string = '';
-  public userId: string = '';
+  public appId: string = 'MYB';
+  public userId: string = '20071';
+  public taxYear: number = 2023;
 
   constructor(private httpClient: HttpClient, private route: ActivatedRoute) { 
     this.route.queryParams.subscribe(params => {
       this.appId = params['appId'];
       this.userId = params['userId'];
+      this.taxYear = params['taxYear'];
     });
   }
 
-  sendToGPT(message: string): Observable<any>
-  { 
-    let response = this.httpClient.post(`https://localhost:7280/chat?appId=${this.appId}&userId=${this.userId}&input=` + message, null,  { responseType: 'text' });
+  sendToGPT(message: string): Observable<any> { 
+    let response = this.httpClient.post(`https://localhost:7280/chat?appId=${this.appId}&userId=${this.userId}&taxYear=${this.taxYear}&input=` + message, null,  { responseType: 'text' });
     return response;
   }
 }

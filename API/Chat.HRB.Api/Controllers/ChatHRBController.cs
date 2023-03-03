@@ -62,7 +62,7 @@ namespace Chat.HRB.Api.Controllers
             return NoContent();
         }
 
-        [HttpPost("prompt")]
+        [HttpGet("prompt")]
         public async Task<ActionResult<PromptModel>> GetPromptData(string appId)
         {
             try
@@ -81,7 +81,7 @@ namespace Chat.HRB.Api.Controllers
         }
 
         [HttpPost("updateprompt")]
-        public async Task<ActionResult<PromptModel>> UpdatePromptData(string appId, PromptModel prompt)
+        public async Task<ActionResult<PromptModel>> UpdatePromptData([FromBody] PromptModel prompt, string appId)
         {
             try
             {
